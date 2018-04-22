@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'seopro',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => '2052b83f9afb2beb7385469f7e8c1cf6',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '55cffa024ac5e2875d825fc3209a57b2',
+  'native_key' => 'seopro.max_keywords_description',
+  'object' => '{"key":"seopro.max_keywords_description","value":"8","xtype":"textfield","namespace":"seopro","area":"general","editedon":null}',
+);

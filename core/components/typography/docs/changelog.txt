@@ -1,0 +1,5 @@
+Typography
+
+Version 1.0.0 – Mar 25, 2015 
+----------------------------
+Initial release

@@ -1,0 +1,16 @@
+<?php return array (
+  'unique_key' => 'key',
+  'preserve_keys' => true,
+  'update_object' => false,
+  'namespace' => 'stercseo',
+  'resolve' => NULL,
+  'validate' => NULL,
+  'vehicle_package' => 'transport',
+  'vehicle_class' => 'xPDOObjectVehicle',
+  'guid' => 'ae13be534329e96d44df0ae15c87765f',
+  'package' => 'modx',
+  'class' => 'modSystemSetting',
+  'signature' => '3abd3b4425c41121235c04828d53df64',
+  'native_key' => 'stercseo.allowed_contexts',
+  'object' => '{"key":"stercseo.allowed_contexts","value":"","xtype":"textfield","namespace":"stercseo","area":"general","editedon":null}',
+);
