@@ -239,6 +239,11 @@ body {
     font-size: 36px;
     font-weight: bold;
 }
+.prich_text img{
+    max-height: 5rem;
+    display: block;
+    margin: auto;
+}
 .footer_bg{
     background: url("../images/main_footer_bg.png") top center no-repeat;
     padding: 2rem 0;
@@ -299,12 +304,13 @@ body {
     margin-bottom: 1rem;
 }
 .contact_text, .contact_block{
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 22px;
+    margin-bottom: 1rem;
 }
 .contact_block{
     padding: 2rem;
-    background:  url("../images/cont_text_bg.png") top center no-repeat;
+    background:  url("../images/cont_text_bg.png") top center no-repeat white;
 }
 .product_cart{
          margin-bottom: 2rem;
@@ -541,6 +547,19 @@ label:hover:before {
 .single-slide img{
     max-width: 100%;
     min-width: 100%;
+}
+#map{
+    position: absolute;
+    width: 110%;
+    margin-left:-1rem;
+    height: 392px;
+    overflow: hidden;
+}
+#map iframe{
+    border: none !important;
+}
+ymaps[class$="controls-pane"]{
+    display: none !important;
 }
 @media screen and (max-width: 1200px){
     .navbar-nav .nav-link span{

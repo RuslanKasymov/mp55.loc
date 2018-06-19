@@ -10,7 +10,7 @@
   'auto_menuindex' => '1',
   'auto_check_pkg_updates' => '1',
   'auto_check_pkg_updates_cache_expire' => '15',
-  'automatic_alias' => '1',
+  'automatic_alias' => '0',
   'base_help_url' => '//docs.modx.com/display/revolution20/',
   'blocked_minutes' => '60',
   'cache_action_map' => '1',
@@ -314,4 +314,8 @@
   'stercseo.user_name' => '',
   'stercseo.user_email' => '',
   'stercseo.migration_status' => '1',
+  'formit.attachment.mediasource' => '1',
+  'formit.attachment.path' => '',
+  'formit.export_csv_delimiter' => ';',
+  'formit.cleanform.days' => '30',
 );

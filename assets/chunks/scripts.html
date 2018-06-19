@@ -1,0 +1,28 @@
+<script src="/assets/theme/js/jquery.js"></script>
+<script src="/assets/theme/js/popper.min.js"></script>
+<script src="/assets/theme/bootstrap/js/bootstrap.js"></script>
+<script src="/assets/theme/js/jquery.fancybox.min.js"></script>
+<script src="/assets/theme/js/jquery.maskedinput.min.js"></script>
+<script src="/assets/theme/js/slick.min.js"></script>
+<script src="/assets/theme/js/jquery-migrate-1.4.1.js"></script>
+<script>
+    $(function () {
+        $("#phone1").mask("8(999) 999-9999");
+        $("#phone2").mask("8(999) 999-9999");
+        $('.single-slide').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.single-slide',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true
+        });
+    });
+</script>

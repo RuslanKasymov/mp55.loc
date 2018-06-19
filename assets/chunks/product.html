@@ -1,0 +1,136 @@
+<div class="container m-b_50">
+	<div class="row">
+		<div class="col-12">
+			<div class="title">
+				[[*pagetitle]]
+				<img src="/assets/theme/images/title_line.png" alt="линия">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<div class="single-slide">
+				[[getImageList?
+				&tvname=`MProductImage`
+				&tpl=`MProduct.Image.RowTpl`
+				]]
+				<!--<div><img src="/assets/theme/images/simple_tovar.png" alt=""></div>-->
+				<!--<div><img data-image="/assets/theme/images/order_bg.png" src="/assets/theme/images/simple_tovar1.png" alt=""></div>-->
+				<!--<div><img data-image="/assets/theme/images/order_bg.png" src="/assets/theme/images/order_bg.png" alt=""></div>-->
+				<!--<div><img data-image="/assets/theme/images/order_bg.png" src="/assets/theme/images/simp_tov3.png" alt=""></div>-->
+				<!--<div><img data-image="/assets/theme/images/order_bg.png" src="/assets/theme/images/simp_tov3.png" alt=""></div>-->
+			</div>
+			<!--<div class="slider-nav">-->
+				<!--<div><img src="/assets/theme/images/simple_tovar.png" alt=""></div>&ndash;&gt;-->
+				<!--<div><img data-image="/assets/theme/images/order_bg.png" src="/assets/theme/images/simple_tovar1.png" alt=""></div>-->
+				<!--<div><img data-image="/assets/theme/images/order_bg.png" src="/assets/theme/images/simp_tov2.png" alt=""></div>-->
+				<!--<div><img data-image="/assets/theme/images/order_bg.png" src="/assets/theme/images/simp_tov2.png" alt=""></div>-->
+				<!--<div><img data-image="/assets/theme/images/order_bg.png"src="/assets/theme/images/simp_tov3.png" alt=""></div>-->
+			<!--</div>-->
+		</div>
+		<div class="col-xs-12 col-md-6">
+			<div class="title_tovar">
+				Аляска АЛК-7143 (ФЕРМЕР)
+			</div>
+			<div class="price_tovar">
+				[[*ProductPrice]]
+			</div>
+			<div class="harateristic m-b_50">
+				<div class="har-title">Технические характеристики</div>
+				[[getImageList?
+				&tvname=`MProductHaracter`
+				&tpl=`MProduct.Haracter.RowTpl`
+				]]
+				<div class="har-title">Грузоподъемность</div>
+				[[getImageList?
+				&tvname=`MProductGruz`
+				&tpl=`MProduct.Haracter.RowTpl`
+				]]
+				<div class="har-title">Описание</div>
+				<div>
+					[[*content]]
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="oborudovanie">
+		<div class="obor_title_block">Выберите дополнительное оборудование</div>
+		<div class="row">
+			[[$Oborudovanie]]
+		</div>
+	</div>
+</div>
+<div class="container-fluid order_bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 offset-md-2">
+				<div class="order">
+					<div class="order_title">
+						Оформление заказа
+					</div>
+					<div class="list">
+						<div class="elem">
+							Аляска АЛК-7143 (ФЕРМЕР)
+							<div class="price">
+								30 000 Р
+							</div>
+						</div>
+						<div class="elem">
+							Дополнительное оборудование
+							<div class="price">
+								12 000 Р
+							</div>
+						</div>
+					</div>
+					<div class="elem f-w_bold">
+						Итого
+						<div class="price">
+							42 000 Р
+						</div>
+					</div>
+					[[!AjaxForm?
+					&snippet=`FormIt`
+					&hooks=`phone`
+					&form=`Form.CatalogForm`
+					&emailSubject=`Сообщение с сайта [[++site_name]]`
+					&emailTo=`info@fabrika55.ru`
+					&validate=`name:required,
+					phone:required,
+					&validationErrorMessage=`В форме содержатся ошибки!`
+					&successMessage=`Сообщение успешно отправлено`
+					&emailTpl=`Form.CatalogForm.FormTpl`
+					]]
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="logos">
+					<div class="item_logs">
+						<img src="/images/maestro.png" alt="maestro">
+					</div>
+					<div class="item_logs">
+						<img src="images/mastercard.png" alt="mastercard">
+					</div>
+					<div class="item_logs">
+						<img src="images/visa.png" alt="visa">
+					</div>
+					<div class="item_logs">
+						<img src="images/sber.png" alt="сбербанк">
+					</div>
+					<div class="item_logs">
+						<img src="images/Mir-logo.svg.png" alt="мир">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

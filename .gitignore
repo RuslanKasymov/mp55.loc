@@ -1,0 +1,18 @@
+# Created by .ignore support plugin (hsz.mobi)
+/*
+
+# but not these
+!.gitignore
+!assets/
+!core/
+!_SASS/
+!_JS/
+
+# ignore cache and config
+core/cache/*
+core/config/config.inc.php
+config.core.php
+manager/config.core.php
+connectors/config.core.php
+assets/components/phpthumbof/cache
+.DS_Store
