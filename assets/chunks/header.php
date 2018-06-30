@@ -43,13 +43,13 @@
                                     <div class="collapse navbar-collapse" id="navbarText">
                                         <ul class="navbar-nav mr-auto">
                                             <li class="nav-item"><!-- active-->
-                                                <a href="/catalog.html" class="nav-link">
+                                                <a href="[[~2]]" class="nav-link">
                                                     <div class="icon_upper nav_odn animaite"></div>
                                                     <span class="animaite">Одноосные</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="/catalog.html" class="nav-link">
+                                                <a href="[[~7]]" class="nav-link">
                                                     <div class="icon_upper nav_dv animaite"></div>
                                                     <span class="animaite">Двуосные</span>
                                                 </a>

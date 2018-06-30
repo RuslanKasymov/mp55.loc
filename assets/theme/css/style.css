@@ -561,6 +561,10 @@ label:hover:before {
 ymaps[class$="controls-pane"]{
     display: none !important;
 }
+.a-c-banner{
+    background: url("../images/ab_comp_banner.png")  top center no-repeat;
+    height: 24rem;
+}
 @media screen and (max-width: 1200px){
     .navbar-nav .nav-link span{
         font-size: 14px;

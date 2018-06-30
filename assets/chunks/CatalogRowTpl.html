@@ -1,0 +1,16 @@
+<div class="container m-b_50">
+	<div class="row">
+		<div class="col-12">
+			<div class="title">
+				[[*pagetitle]]
+				<img src="/assets/theme/images/title_line.png" alt="линия">
+			</div>
+		</div>
+		[[!getResources?
+		&parents=`[[*id]]`
+		&tpl=`Catalog.Index.RowTpl`
+		&includeTVs=`1`
+		&sortdir=`ASC`
+		]]
+	</div>
+</div>
