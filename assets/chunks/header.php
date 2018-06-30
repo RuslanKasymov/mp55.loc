@@ -2,7 +2,7 @@
                 <div class="row header">
                     <div class="col-12 col-md-3">
                         <div class="logo">
-                            <a href="/"><img src="assets/theme/images/logo_head.png" alt="магазин прицепов логотип"></a>
+                            <a href="/"><img src="/assets/theme/images/logo_head.png" alt="магазин прицепов логотип"></a>
                         </div>
                     </div>
                     <div class="col-md-9">
@@ -55,31 +55,30 @@
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="/catalog.html" class="nav-link">
+                                                <a href="[[~8]]" class="nav-link">
                                                     <div class="icon_upper nav_spec animaite"></div>
                                                     <span class="animaite">Спец Прицепы</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="/gallery.html" class="nav-link">
+                                                <a href="[[~15]]" class="nav-link">
                                                     <div class="icon_upper nav_gal animaite"></div>
                                                     <span class="animaite">Галерея</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link">
+                                                <a href="[[~13]]" class="nav-link">
                                                     <div class="icon_upper nav_ocomp animaite"></div>
                                                     <span class="animaite">О компании</span>
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="/contacts.html" class="nav-link">
+                                                <a href="[[~4]]" class="nav-link">
                                                     <div class="icon_upper nav_contacts animaite"></div>
                                                     <span class="animaite">Контакты</span>
                                                 </a>
                                             </li>
                                         </ul>
-
                                     </div>
                                 </nav>
 

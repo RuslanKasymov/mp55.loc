@@ -565,6 +565,7 @@ ymaps[class$="controls-pane"]{
     background: url("../images/ab_comp_banner.png")  top center no-repeat;
     height: 24rem;
 }
+
 @media screen and (max-width: 1200px){
     .navbar-nav .nav-link span{
         font-size: 14px;

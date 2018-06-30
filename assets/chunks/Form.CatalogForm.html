@@ -1,10 +1,10 @@
-<form class="form_order" action="[[~[[*id]]]]">
+<form class="form_order" method="post">
 			<label>
-				<input class="footer_inp" name="name" placeholder="Ваше имя" value="[[!+fi.name]]">
+				<input class="footer_inp" name="name" id="name" placeholder="Ваше имя" value="[[!+fi.name]]">
 				<span class="error_name">[[!+fi.error.name]]</span>
 			</label>
 			<label>
-				<input id="phone2" name="number" class="footer_inp" placeholder="Ваш номер" value="[[!+fi.phone]]">
+				<input class="footer_inp" name="phone" id="pjone"  placeholder="Ваш номер" value="[[!+fi.phone]]">
 				<span class="error_phone">[[!+fi.error.phone]]</span>
 			</label>
 	<button>Заказать!</button>

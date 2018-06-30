@@ -1,0 +1,29 @@
+[[!getPage?
+&elementClass=`modSnippet`
+&element=`getResources`
+&parents=`[[*id]]`
+&depth=`1`
+&limit=`2`
+&pageVarKey=`page`
+&includeTVs=`1`
+&includeContent=`1`
+&tpl=`Gallary.List.RowTpl`
+&sortby=`{"publishedon":"DESC"}`
+&pagePrevTpl=`<a[[+classes:default=` class=" icon-arrow-left"`]][[+title]] href="[[+href]]"><</a>`
+&pageNextTpl=`<a[[+classes:default=` class=" icon-arrow-right"`]][[+title]] href="[[+href]]">></a>`
+&pageNavOuterTpl=`<div class="row">
+	<div class="col-4 offset-5">
+		<div class="pagination">
+			[[+prev]] [[+pages]] [[+next]]
+		</div>
+	</div>
+</div>
+&pageNavTpl=`<a[[+classes:default=` class=" pagination-number"`]][[+title]] href="[[+href]]">[[+pageNo]]</a>`
+&pageActiveTpl=`<a[[+activeClasses:default=` class="red"`]][[+title]] href="[[+href]]">[[+pageNo]]</a>`
+]]
+
+
+[[!getResources?
+&parents=`[[*id]]`
+&tpl=`Gallary.List.RowTpl`
+]]
