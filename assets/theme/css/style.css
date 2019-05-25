@@ -176,9 +176,11 @@ body {
 .prod_cart_img{
     width: 100%;
     height: 180px;
+    text-align: center;
 }
 .prod_cart_img img{
   max-width: 100%;
+    max-height: 100%;
 }
 .prod_cart_title{
     font-size: 20px;
@@ -565,7 +567,11 @@ ymaps[class$="controls-pane"]{
     background: url("../images/ab_comp_banner.png")  top center no-repeat;
     height: 24rem;
 }
-
+.v-h{
+    visibility: hidden;
+    position: absolute;
+}
+label{display:inline;}
 @media screen and (max-width: 1200px){
     .navbar-nav .nav-link span{
         font-size: 14px;

@@ -78,24 +78,25 @@
 					</div>
 					<div class="list">
 						<div class="elem">
-							Аляска АЛК-7143 (ФЕРМЕР)
-							<div class="price">
-								30 000 Р
+							[[*pagetitle]]
+							<div class="price" id="prod_price">
+								[[*ProductPrice]]
 							</div>
 						</div>
 						<div class="elem">
 							Дополнительное оборудование
-							<div class="price">
-								12 000 Р
+							<div class="price" id="price_dop">
+								0
 							</div>
 						</div>
 					</div>
 					<div class="elem f-w_bold">
 						Итого
-						<div class="price">
-							42 000 Р
+						<div class="price" id="result">
+							[[*ProductPrice]]
 						</div>
 					</div>
+
 					[[!AjaxForm?
 					&snippet=`FormIt`
 					&hooks=`email`

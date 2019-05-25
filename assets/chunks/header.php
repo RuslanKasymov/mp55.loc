@@ -11,7 +11,7 @@
                                 <div class="row">
                                     <div class="col-md-8">
                                         <div class="text_head">
-                                            <span class="head-text-info">ул.Лескова, 6</span>
+                                            <span class="head-text-info">ул.Лескова,4</span>
                                             <span class="head-text-info"><a href="tel:89507862092">+7(950)786-20-92</a></span>
                                             <span class="head-text-info"><a href="mailto:info@fabrika.ru">info@fabrika.ru</a></span>
                                         </div>
@@ -39,7 +39,6 @@
                                         <span class="navbar-toggler-icon"> </span>
                                         Навигация
                                     </button>
-
                                     <div class="collapse navbar-collapse" id="navbarText">
                                         <ul class="navbar-nav mr-auto">
                                             <li class="nav-item"><!-- active-->
@@ -87,4 +86,3 @@
                     </div>
                 </div>
             </div>
-			[[!Wayfinder? &startId=`0` ]]

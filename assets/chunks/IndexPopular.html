@@ -1,8 +1,18 @@
-                        [[!getResources? 
-                            &parents=`2` 
-                            &tpl=`Catalog.Index.RowTpl`
-                            &includeTVs=`1`
-							&tvFilters=`inPopular==1`
-                            &sortdir=`ASC`
-                            &limit=`3`
-                        ]]
+<div class="container m-b_50">
+	<div class="row">
+		<div class="col-12">
+			<div class="title">
+				Популярные товары
+				<img src="assets/theme/images/title_line.png" alt="линия">
+			</div>
+		</div>
+		[[!getResources?
+		&parents=`2`
+		&tpl=`Catalog.Index.RowTpl`
+		&includeTVs=`1`
+		&tvFilters=`inPopular==1`
+		&sortdir=`ASC`
+		&limit=`3`
+		]]
+	</div>
+</div>
