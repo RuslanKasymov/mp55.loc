@@ -10,31 +10,29 @@
         $("#phone1").mask("8(999) 999-9999");
         $("#phone2").mask("8(999) 999-9999");
         $('.obor label').on('click', function () {
-			console.log($(this).parent().children(".obor_price").children(".price")[0].innerText);
-			console.log($(this).parent().children('input[type="checkbox"]').is(":checked"));
-			var price;
-			var result;
-			if(!$(this).parent().children('input[type="checkbox"]').is(":checked")){
+            var price;
+            var result;
+            if (!$(this).parent().children('input[type="checkbox"]').is(":checked")) {
                 price = parseInt($('#dop_obor')[0].value) + parseInt($(this).parent().children(".obor_price").children(".price")[0].innerText);
                 $('#dop_obor')[0].value = price;
                 $('#price_dop')[0].innerText = price;
-                result = parseInt($('#prod_price')[0].innerText) +  price;
+                result = parseInt($('#prod_price')[0].innerText) + price;
 
                 $('#result')[0].innerText = result;
-            }else{
+            } else {
                 price = parseInt($('#dop_obor')[0].value) - parseInt($(this).parent().children(".obor_price").children(".price")[0].innerText);
-                result = parseInt($('#prod_price')[0].innerText) +  price;
+                result = parseInt($('#prod_price')[0].innerText) + price;
                 $('#dop_obor')[0].value = price;
-                $('#price_dop')[0].innerText =price;
+                $('#price_dop')[0].innerText = price;
                 $('#result')[0].innerText = result;
             }
         });
-		$('#order_submit').on('click', function () {
+        $('#order_submit').on('click', function () {
             var list_obor = '';
 
             $('.obor input[type="checkbox"]').each(function () {
-                if($(this).is(":checked")){
-                    list_obor += $(this).parent().children(".obor_title")[0].innerText+', ';
+                if ($(this).is(":checked")) {
+                    list_obor += $(this).parent().children(".obor_title")[0].innerText + ', ';
                 }
             });
             $('#list_obor')[0].value = list_obor;
