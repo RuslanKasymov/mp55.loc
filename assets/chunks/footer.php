@@ -10,9 +10,9 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="footer_nav">
-                                <div class="footer_nav_item"><a href="[[~2]]">Одноосные</a></div>
-                                <div class="footer_nav_item"><a href="[[~7]]">Двуосные</a></div>
+                                <div class="footer_nav_item"><a href="[[~2]]">Бортовые</a></div>
                                 <div class="footer_nav_item"><a href="[[~8]]">Спец. прицепы</a></div>
+                                <div class="footer_nav_item"><a href="[[~17]]">Аренда</a></div>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4">
@@ -32,10 +32,10 @@
 						&hooks=`email`
 						&form=`Form.footerForm`
 						&emailTpl=`Form.footerForm.FormTpl`
-						&emailSubject=`Заказ звонка[[++site_name]]`
+						&emailSubject=`Заказ звонка [[++site_name]]`
 						&emailTo=`info@fabrika55.ru`
-						&validate=`name:required,
-						phone:required`
+                        &emailFrom=`info@fabrika55.ru`
+						&validate=`phone1:required`
 						&validationErrorMessage=`В форме содержатся ошибки!`
 						&successMessage=`Сообщение успешно отправлено`
 						]]
@@ -43,7 +43,6 @@
                             <div class="footer_nav_cl md-d_n">
                                 <div><a href="[[~15]]">Галерея</a></div>
                                 <div><a href="[[~13]]">О компании</a></div>
-                                <div><a href="[[~4]]">Контакты</a></div>
                                 <div><a href="#">Вопрос ответ</a></div>
                             </div>
                         </div>

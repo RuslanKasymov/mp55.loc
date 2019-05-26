@@ -44,19 +44,19 @@
                                 <li class="nav-item"><!-- active-->
                                     <a href="[[~2]]" class="nav-link">
                                         <div class="icon_upper nav_odn animaite"></div>
-                                        <span class="animaite">Одноосные</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="[[~7]]" class="nav-link">
-                                        <div class="icon_upper nav_dv animaite"></div>
-                                        <span class="animaite">Двуосные</span>
+                                        <span class="animaite">Бортовые</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="[[~8]]" class="nav-link">
                                         <div class="icon_upper nav_spec animaite"></div>
                                         <span class="animaite">Спец Прицепы</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="[[~17]]" class="nav-link">
+                                        <div class="icon_upper nav_rent animaite"></div>
+                                        <span class="animaite">Аренда прицепов</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -69,12 +69,6 @@
                                     <a href="[[~13]]" class="nav-link">
                                         <div class="icon_upper nav_ocomp animaite"></div>
                                         <span class="animaite">О компании</span>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="[[~4]]" class="nav-link">
-                                        <div class="icon_upper nav_contacts animaite"></div>
-                                        <span class="animaite">Контакты</span>
                                     </a>
                                 </li>
                             </ul>
