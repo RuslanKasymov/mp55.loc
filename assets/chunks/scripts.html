@@ -5,3 +5,21 @@
 <script src="/assets/theme/js/jquery.maskedinput.min.js"></script>
 <script src="/assets/theme/js/slick.min.js"></script>
 <script src="/assets/theme/js/jquery-migrate-1.4.1.js"></script>
+<script src="/assets/theme/js/script.js"></script>
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+<script>
+    ymaps.ready(function () {
+        var myMap = new ymaps.Map('map_contact', {
+                center: [54.985858, 73.447555],
+                zoom: 16,
+                controls: []
+            }),
+            // Создаём макет содержимого.
+            MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
+                '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
+            ),
+            myPlacemarkWithContent = new ymaps.Placemark([54.985922, 73.451315], {});
+        myMap.geoObjects
+            .add(myPlacemarkWithContent);
+    });
+</script>

@@ -18,7 +18,9 @@
                     </div>
                 </div>
               	<div class="col-sm-4">
-					<img src="/assets/theme/images/ab_comp_logo.png" alt="логотип">
+					<div class="text-center">
+                        <img src="/assets/theme/images/ab_comp_logo.png" alt="логотип">
+                    </div>
 				</div>
 				<div class="col-sm-8">
 					<p>Мы стали одним из ведущих магазинов, предлагающих своим покупателям прицепы для легковых автомобилей в Омске и Омской области. Все прицепы изготовлены по современным технологиям и отвечают требованиям наших клиентов. Позвоните нам, и мы поможем подобрать прицеп под Ваши нужды</p>
@@ -40,26 +42,35 @@
 						<li>с лебедкой или без</li>
 						<li>с тентом или без</li>
 					</ul>
-					<p>Компани „Магазин прицепов“ явлвется официальным дилером прицепов „Аляска“. Низкие
-						цены и гарантия долго службы позволят Вам приобрести прицепы на самых выгодных условиях!</p>
+					<p>Компания „Магазин прицепов“ является официальным дилером прицепов „Аляска“. Низкие
+						цены и гарантия долгой службы позволят Вам приобрести прицепы на самых выгодных условиях!</p>
 				</div>
 			</div>
 		</div>
 		<div class="container-fluid a-c-banner"></div>
 		<div class="container">
 			<div class="row">
-				<div class="col-12">
+				<div class="col-6">
 					<div>
-						<span class="f-w_bold">Время работы:</span><br>
+						<span class="f-w_bold"><span class="icon-calendar"></span> Время работы:</span><br>
 						Пн-Пт: с 09:00 до 18:00, перерыв с 13:00 до 14:00,<br>
 						Сб с 09:00 до 14 00<br>
 						Вс выходной<br>
-                        <span class="f-w_bold">Отгрузка товара:</span><br>
+                        <span class="f-w_bold"><span class="icon-calendar"></span> Отгрузка товара:</span><br>
 						Пн-Пт: с 09:00 до 18:00, перерыв с 13:00 до 14:00,<br>
 						Сб с 09:00 до 14 00<br>
 						Вс выходной<br>
 					</div>
-
+				</div>
+                <div class="col-6">
+					<div>
+                        <span class="f-w_bold">ИП Кулаков А.Ю.</span><br>
+                        <span class="f-w_bold">Почтовый адрес:</span><br>
+                        644009, г.Омск, ул. 10 лет Октября, 193 корп.2 , офис 604<br>
+                        ИНН 551002972111 / ОГРНИП 315554300096069<br>
+                        р/с 40802810360090001939 Сибирский филиал АО «БАНК ИНТЕЗА» <br>
+                        г. Новосибирск к/с 30101810250040000883, БИК 045004883
+                    </div>
 				</div>
 			</div>
 		</div>
@@ -80,9 +91,7 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div id="map">
-            <iframe src="https://yandex.ru/map-widget/v1/-/CBuy70vTCB" width="100%" height="400" frameborder="1" allowfullscreen="true"></iframe>
-        </div>
+        <div id="map_contact"></div>
         <div class="container">
             <div class="row">
                 <div class="col-6">
@@ -108,6 +117,5 @@
 </div>
 
 [[$scripts]]
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 </body>
 </html>

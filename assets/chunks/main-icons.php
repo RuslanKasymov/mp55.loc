@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12 col-md-9 offset-md-3">
             <div class="title title_kupit">
-                Почему стоит купить <span class="c-red">прицеп</span> на машину?
+                Почему стоит купить <span class="c-red">прицеп</span> для автомобиля?
                 <img src="assets/theme/images/title_line.png" alt="линия">
             </div>
         </div>

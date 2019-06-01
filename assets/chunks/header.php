@@ -12,20 +12,20 @@
                         <div class="col-md-8">
                             <div class="text_head">
                                 <span class="head-text-info">ул.Лескова,4/2</span>
-                                <span class="head-text-info"><a href="tel:89507862092">+7(950)786-20-92</a></span>
+                                <span class="head-text-info"><a href="tel:89533926234">+7(953)392-62-34</a></span>
                                 <span class="head-text-info"><a href="mailto:info@mp55.ru">info@mp55.ru</a></span>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="social_head">
-                                <a href="https://www.facebook.com/groups/1460469167587916/">
-                                    <div class="icon_upper head_fb animaite"></div>
-                                </a>
-                                <a href="https://vk.com/fabrikajalousie">
+                                <a href="https://vk.com/fabrikajalousie" target="_blank">
                                     <div class="icon_upper head_vk animaite"></div>
                                 </a>
-                                <a href="https://ok.ru/fabrikazhalousie">
+                                <a href="https://ok.ru/fabrikazhalousie" target="_blank">
                                     <div class="icon_upper head_ok animaite"></div>
+                                </a>
+                                <a href="https://www.instagram.com/fabrika.jalousie/" target="_blank">
+                                    <div class="icon_upper head_insta animaite"></div>
                                 </a>
                             </div>
                         </div>

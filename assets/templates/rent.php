@@ -19,9 +19,9 @@
                 </div>
               	<div class="col-sm-12">
                     <p class="m-b_50">
-                        Если у Вас нет необходимости покупать прицеп и нужда  в нем лишь на короткий срок, то специально для Вас, „Магазин прицепов“ предоставляет
-                        возможность взять прицепы в аренду под залог. Вам предосталяется прицепы с грузоподъемностью до 515 килограмм! Прицепы могут
-                        использоваться как для перевозки мотоциклов, квадрациклов, снегоходов и другой легкой техники, до перевозки мебели и крупногабаритных
+                        Если у Вас нет необходимости покупать прицеп и нужда  в нем лишь на короткий срок, то специально для Вас „Магазин прицепов“ предоставляет
+                        возможность взять прицепы в аренду/на прокат под небольшой залог. Вам предосталяется прицепы с грузоподъемностью до 515 килограмм! Прицепы могут
+                        использоваться как для перевозки мотоциклов, квадроциклов, снегоходов и другой легкой техники, так и для перевозки мебели и крупногабаритных
                         предметов. Таблицу цен на аренду прицепов вы можете увидеть ниже:
                     </p>
 				</div>
@@ -63,115 +63,16 @@
                 <div class="col-sm-12 m-b_50">
                     Для аренды предоставляется 2 вида прицепов: Аляска АЛК-7143 (ФЕРМЕР) и Аляска АЛК-Стрела 1,6. Характеристики прицепов
                 </div>
-                <div class="col-sm-12">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    [[getImageList?
-                                    &tvname=`MProductImage`
-                                    &tpl=`MProduct.ImageDots.RowTpl`
-                                    &docid=`11`
-                                    ]]
-                                </ol>
-                                <div class="carousel-inner" role="listbox">
-                                    [[getImageList?
-                                    &tvname=`MProductImage`
-                                    &tpl=`MProduct.Image.RowTpl`
-                                    &docid=`11`
-                                    ]]
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="title_tovar">
-                                [[#11.pagetitle]]
-                            </div>
-                            <div class="harateristic m-b_50">
-                                <div class="har-title">Технические характеристики</div>
-                                [[getImageList?
-                                &tvname=`MProductHaracter`
-                                &tpl=`MProduct.Haracter.RowTpl`
-                                &docid=`11`
-                                ]]
-                                <div class="har-title">Грузоподъемность</div>
-                                [[getImageList?
-                                &tvname=`MProductGruz`
-                                &tpl=`MProduct.Haracter.RowTpl`
-                                &docid=`11`
-                                ]]
-                                <div class="har-title">Описание</div>
-                                <div>
-                                    [[#11.content]]
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    [[getImageList?
-                                    &tvname=`MProductImage`
-                                    &tpl=`MProduct.ImageDots.RowTpl`
-                                    &docid=`18`
-                                    ]]
-                                </ol>
-                                <div class="carousel-inner" role="listbox">
-                                    [[getImageList?
-                                    &tvname=`MProductImage`
-                                    &tpl=`MProduct.Image.RowTpl`
-                                    &docid=`18`
-                                    ]]
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-md-6">
-                            <div class="title_tovar">
-                                [[#18.pagetitle]]
-                            </div>
-                            <div class="harateristic m-b_50">
-                                <div class="har-title">Технические характеристики</div>
-                                [[getImageList?
-                                &tvname=`MProductHaracter`
-                                &tpl=`MProduct.Haracter.RowTpl`
-                                &docid=`18`
-                                ]]
-                                <div class="har-title">Грузоподъемность</div>
-                                [[getImageList?
-                                &tvname=`MProductGruz`
-                                &tpl=`MProduct.Haracter.RowTpl`
-                                &docid=`18`
-                                ]]
-                                <div class="har-title">Описание</div>
-                                <div>
-                                    [[#18.content]]
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                [[!getResources?
+                &parents=`2`
+                &tpl=`Rent.Products`
+                &includeTVs=`1`
+                &tvFilters=`inRent==1`
+                &sortdir=`ASC`
+                ]]
 			</div>
 		</div>
-        <div class="container-fluid order_bg">
+        <div class="container-fluid order_bg" id="order_block">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 offset-md-2">
@@ -182,7 +83,7 @@
                             &form=`Form.RentForm`
                             &emailTpl=`Form.RentForm.FormTpl`
                             &emailSubject=`Сообщение с сайта [[++site_name]]`
-                            &emailTo=`info@fabrika55.ru`
+                            &emailTo=`fabrika-omsk@mail.ru`
                             &validate=`name:required,
                             phone:required`
                             &validationErrorMessage=`В форме содержатся ошибки!`
@@ -216,11 +117,9 @@
                 </div>
             </div>
         </div>
-
     </div>
 	[[$footer]]
 </div>
-
 [[$scripts]]
 </body>
 </html>

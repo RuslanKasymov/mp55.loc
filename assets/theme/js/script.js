@@ -31,17 +31,20 @@ $(function () {
         $('#form_order').submit();
     })
 });
-ymaps.ready(function () {
-    var myMap = new ymaps.Map('map_contact', {
-            center: [54.987962, 73.441554],
-            zoom: 16,
-            controls: []
-        }),
-        // Создаём макет содержимого.
-        MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-            '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
-        ),
-        myPlacemarkWithContent = new ymaps.Placemark([54.987962, 73.433654], {});
-    myMap.geoObjects
-        .add(myPlacemarkWithContent);
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 50) {
+        $('#scroll-to-top').fadeIn();
+    } else {
+        $('#scroll-to-top').fadeOut();
+    }
 });
+// scroll body to 0px on click
+$('#scroll-to-top').click(function () {
+    $('#scroll-to-top').tooltip('hide');
+    $('body,html').animate({
+        scrollTop: 0
+    }, 800);
+    return false;
+});
+
+$('#scroll-to-top').tooltip('show');
