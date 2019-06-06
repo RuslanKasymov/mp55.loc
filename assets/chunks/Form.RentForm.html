@@ -7,9 +7,14 @@
             [[*pagetitle]]
         </div>
         <label>Выберите арендуемый прицеп
-            <select class="form-control rent_select" name="name_pricep" id="name_pricep">
-                <option value="ALASKA Фермер">ALASKA Фермер</option>
-                <option value="ALASKA Стрела 1,6">ALASKA Стрела 1,6</option>
+            <select class="form-control rent_select" name="id_pricep" id="id_pricep">
+                [[!getResources?
+                &parents=`2`
+                &tpl=`Rent.Options`
+                &includeTVs=`1`
+                &tvFilters=`inRent==1`
+                &sortdir=`ASC`
+                ]]
             </select>
             <span class="error_name_pricep">[[!+fi.error.name_pricep]]</span>
         </label>

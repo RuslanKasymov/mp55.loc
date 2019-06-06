@@ -25,8 +25,8 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <a href="#order_block">
-                <div class="prod_cart_btn animaite">Арендовать</div>
+            <a href="#order_block" >
+                <div class="prod_cart_btn animaite rent_link" data-product="[[+id]]">Арендовать</div>
             </a>
         </div>
         <div class="col-xs-12 col-md-6">

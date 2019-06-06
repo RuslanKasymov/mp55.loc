@@ -23,3 +23,9 @@
             .add(myPlacemarkWithContent);
     });
 </script>
+<script>
+    $('.rent_link').on('click', function () {
+        var product = $(this).data("product");
+        $("select").val(product);
+    });
+</script>

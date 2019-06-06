@@ -591,6 +591,12 @@ label:hover:before {
     max-width: 100%;
     min-width: 100%;
 }
+.about_company_text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 2.5rem;
+}
 #map_contact{
     position: absolute;
     width: 110%;

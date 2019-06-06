@@ -6,6 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <title>[[*pagetitle]] - [[++site_name]]</title>
-    <link rel="stylesheet" href="assets/theme/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="assets/theme/css/style.css"/>
-    <link rel="stylesheet" href="assets/theme/css/jquery.fancybox.min.css"/>
+    <link rel="stylesheet" href="/assets/theme/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/assets/theme/css/style.css"/>
+    <link rel="stylesheet" href="/assets/theme/css/jquery.fancybox.min.css"/>
