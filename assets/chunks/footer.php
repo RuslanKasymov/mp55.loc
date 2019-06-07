@@ -20,12 +20,16 @@
                                 <div>г.Омск, ул.Лескова,4/2</div>
                                 <div><a href="tel:89533926234">+7(953)392-62-34</a></div>
                                 <div><a href="mailto:info@mp55.ru">info@mp55.ru</a></div>
-                                <div class="social">
-                                    <a href="https://vk.com/fabrikajalousie"><img src="assets/theme/images/footer_soc_ok.png" alt="vk"></a>
-                                    <a href="https://ok.ru/fabrikazhalousie"><img src="assets/theme/images/footer_soc_vk.png" alt="ok"></a>
-                                    <a href="https://www.instagram.com/fabrika.jalousie/" target="_blank"><img src="assets/theme/images/footer_soc_insta.png" alt="ok"> </a>
+                                <div class="social m-b_25">
+                                    <a href="https://vk.com/fabrikajalousie"><img src="/assets/theme/images/footer_soc_ok.png" alt="vk"></a>
+                                    <a href="https://ok.ru/fabrikazhalousie"><img src="/assets/theme/images/footer_soc_vk.png" alt="ok"></a>
+                                    <a href="https://www.instagram.com/fabrika.jalousie/" target="_blank"><img src="/assets/theme/images/footer_soc_insta.png" alt="ok"> </a>
+                                </div>
+                                <div>
+                                    Находясь на нашем сайте, Вы подписываете<br><a href="[[~19]]">политику конфиденциальности</a>
                                 </div>
                             </div>
+
                         </div>
 						[[!AjaxForm?
 						&snippet=`FormIt`
@@ -43,12 +47,11 @@
                             <div class="footer_nav_cl md-d_n">
                                 <div><a href="[[~15]]">Галерея</a></div>
                                 <div><a href="[[~13]]">О компании</a></div>
-                                <div><a href="#">Вопрос ответ</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-     <a id="scroll-to-top" href="#" role="button" title="Return to top of page" data-toggle="tooltip" data-placement="left"><span class="icon-arrow-up2"></span></a>
+     <a id="scroll-to-top" href="#" role="button" title="Вернуться наверх" data-toggle="tooltip" data-placement="left"><span class="icon-arrow-up2"></span></a>
     </footer>

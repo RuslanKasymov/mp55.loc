@@ -58,6 +58,7 @@ body {
 }
 .main_head_bg{
     background: url("../images/main_head_bg.png")  top center no-repeat;
+    background-size: cover;
 }
 .header{
     /*height: 150px;*/
@@ -230,6 +231,9 @@ body {
 .m-b_50{
     margin-bottom: 50px;
 }
+.m-b_25{
+    margin-bottom: 25px;
+}
 .banner_main_bg {
     background: url("../images/main_banner.png") top center no-repeat;
 }
@@ -269,6 +273,7 @@ body {
 }
 .footer_bg{
     background: url("../images/main_footer_bg.png") top center no-repeat;
+    background-size: cover;
     padding: 2rem 0;
 }
 .footer_nav{
@@ -798,6 +803,9 @@ label{display:inline;}
     }
     .m-t_-50{
         margin-top: 0;
+    }
+    .title img, .title_prod_gal img{
+        width: 100%;
     }
 }
 @media screen and (max-width: 320px){
